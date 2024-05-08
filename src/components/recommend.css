@@ -1,0 +1,64 @@
+.recommended-songs-list {
+  list-style-type: none; /* Removes the bullet points */
+  padding-left: 0; /* Removes default padding */
+}
+.recommend-song-button {
+  background: none;
+  border: none;
+  color: blue; /* Or whatever style you prefer */
+  text-align: left;
+  padding: 0;
+  font-size: 1em; /* Adjust to match your design */
+}
+
+.recommend-song-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.recommended-songs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommended-songs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between tiles */
+  justify-content: center;
+}
+
+.song-tile {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and song details */
+  background-color: #f2f2f2; /* Tile background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  cursor: pointer; /* Indicates the tile is clickable */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.song-tile:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.song-image {
+  width: 64px; /* Set a fixed size for song images */
+  height: 64px;
+  object-fit: cover; /* Ensures the image covers the area */
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.song-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-name {
+  font-weight: bold;
+}
+
+.song-artist {
+  color: #555;
+}

@@ -1,0 +1,74 @@
+/* src/components/SongPlayer.css */
+.song-player {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.song-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.song-info h3 {
+  margin: 0;
+}
+
+.player-controls button {
+  padding: 10px;
+  margin-right: 5px;
+}
+.song-player {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between elements */
+  background-color: #f2f2f2; /* Background color for the song player */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px; /* Space below the player */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.song-image {
+  width: 128px; /* Adjust the size as needed */
+  height: 128px;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: rounded corners for the image */
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song-info h3 {
+  margin: 0; /* Remove default margins */
+  padding: 0;
+  font-size: 1.2em; /* Adjust font size as needed */
+}
+
+.player-controls {
+  margin-left: auto; /* Push controls to the right */
+}
+
+.player-controls button {
+  background-color: #1db954; /* Spotify green for the play button */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.player-controls button:hover {
+  background-color: #1ed760; /* Lighter green on hover */
+}
+
+.player-controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
