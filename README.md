@@ -14,6 +14,5 @@
 
 - Screenshots:
 
-![screenshot 1] (ss1.png)
-
-![screenshot 2] (ss2.png)
+![alt text](ss1.png)
+![alt text](ss2.png)
