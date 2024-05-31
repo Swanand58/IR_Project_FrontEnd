@@ -14,6 +14,6 @@
 
 - Screenshots:
 
-[] (public/ss1.png)
+![screenshot 1] (ss1.png)
 
-[] (public/ss2.png)
+![screenshot 2] (ss2.png)
