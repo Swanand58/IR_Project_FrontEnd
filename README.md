@@ -1,4 +1,4 @@
-# IR_Project_FrontEnd
+# IR Project FrontEnd Rice University Spring 2024
 
 - Run the FrontEnd
 
